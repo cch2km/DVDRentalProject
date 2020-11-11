@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.slick01{
+	width:964px;
+	margin:0; 
+}
+.slick-list .draggable{
+	padding: 0px 2%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.slick-slider .slick-track, .slick-slider .slick-list{
+  background: #fff;
+}
+.slick-initialized .slick-slide{
+  opacity: 0.4; /* 両サイドの画像を透過 */
+}
+.slick-initialized .slick-slide.slick-active{
+  opacity: 1; /* センター画像を非透過 */
+}
